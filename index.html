@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulaiton.">
+  <meta name="keywords" content="LMMs, Robot Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulaiton</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathJax Example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+  
+
+  <style>
+    .gif-gallery {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .gif-item {
+      margin: 10px; /* Add some space around each GIF */
+    
+    }
+
+
+    .gif-item img {
+      max-width: 100%; /* Ensure the image is responsive     text-align: center; /* Center the GIF name below the image */ 
+      height: auto; /* Maintain aspect ratio */
+    }
+  </style>
+
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            <!-- <img src="./static/images/logo.png" alt="Logo" id="llarva-logo" style="width: 65px; vertical-align: middle; margin-right: -10px;"> -->
+            RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulaiton
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a >Fanfan Liu</a>,</span>
+            <span class="author-block">
+                <a>Feng Yan</a><sup></sup>,</span>
+            <span class="author-block">
+              <a >Liming Zheng</a>,
+            </span>
+
+            <span class="author-block">
+              <a >Chengjian Feng</a>,
+            </span>
+
+            <span class="author-block">
+              <a >Yiyang Huang</a>,
+            </span>
+
+            <span class="author-block">
+              <a >Lin Ma*</a>,
+            </span>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Meituan</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+         
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2406.18977"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+             
+              <span class="link-block">
+                <a href="https://github.com/liufanfanlff/RoboUniview"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+           
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <div class="gif-gallery">
+          <div class="gif-item">
+            <img src="./static/gif/0-0-rotate_blue_block_right-succ.gif" alt="GIF 1">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-1-move_slider_right-succ.gif" alt="GIF 2">
+          
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-2-lift_red_block_slider-succ.gif" alt="GIF 3">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-3-place_in_slider-succ.gif" alt="GIF 4">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-4-turn_off_lightbulb-succ.gif" alt="GIF 5">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <div class="gif-gallery">
+          <div class="gif-item">
+            <img src="./static/gif/0-0-rotate_blue_block_right.gif" alt="GIF 1">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-1-move_slider_right.gif" alt="GIF 2">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-2-lift_red_block_slider.gif" alt="GIF 3">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-3-place_in_slider.gif" alt="GIF 4">
+           
+          </div>
+          <div class="gif-item">
+            <img src="./static/gif/0-4-turn_off_lightbulb.gif" alt="GIF 5">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Utilizing Vision-Language Models (VLMs) for robotic manipulation represents a novel paradigm, aiming to enhance the model's ability to generalize to new objects and instructions. However, due to variations in camera specifications and mounting positions, existing methods exhibit significant performance disparities across different robotic platforms. To address this challenge, we propose RoboUniView in this paper, an innovative approach that decouples visual feature extraction from action learning. We first learn a unified view representation from multi-perspective views by pre-training on readily accessible data, and then derive actions from this unified view representation to control robotic manipulation. This unified view representation more accurately mirrors the physical world and is not constrained by the robotic platform's camera parameters. Thanks to this methodology, we achieve state-of-the-art performance on the demanding CALVIN benchmark, enhancing the success rate in the D->D setting from 88.7% to 96.2%, and in the ABC->D setting from 82.4% to 94.2%. Moreover, our model exhibits outstanding adaptability and flexibility: it maintains high performance under unseen camera parameters, can utilize multiple datasets with varying camera parameters, and is capable of joint cross-task learning across datasets.
+          </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">The RoboUniView Architecture</h3>
+        <img style="width:1000px" src="./static/images/image-20240529.png">
+
+        <div class="subtitle content has-text-justified">
+          <p>&nbsp;
+          <p>The entire RoboUniView framework is illustrated in Figure. During the forward process, multi-perspective images pass through Vision Encoder to extract wrist image features and the unified view representation. These are then combined with language tokens in the Feature Fusion Decoder to extract integrated vision-language features. Finally, these features pass through the policy head to execute robotic manipulation. The training process consists of two phases: during the pre-training phase, Vision Encoder undergoes training on a large dataset of easily accessible RGB-D images to learn robust unified view representation; during the fine-tuning phase, the model learns to predict robotic actions from the unified view representation, using paired images and action data.</p>
+
+          &nbsp;</p>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+  </div>
+</section> 
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Experiments</h2>
+        <h3 class="title is-5">Comparisons with Other State-of-the-Art Methods</h3>
+        <img style="width:900px" src="./static/images/image-20240619.png">
+        <div class="subtitle content has-text-justified">
+          <p>&nbsp;
+          <p>We fine-tune RoboUniView using the demonstrations from the Split D training set, and evaluate its imitation performance on episodes sampled from Split D (D->D). RoboUniView significantly outperforms all methods across all metrics. The success rate of task1 is improved from 0.887 to 0.962. Even more impressive, in sequence of consecutive tasks, RoboUniView increase the success rate of task5 from 0.349 to 0.563 and raise the average successful sequence length from 2.968 to 3.855. This result is particularly commendable as the complexity and challenge of subsequent tasks significantly increase with the progression of the tasks. This primarily stems from the fact that the initial state of each subsequent task is heavily dependent on the completion state of the previous task, leading to increasingly diverse starting conditions.</p>
+          <p>We also fine-tune RoboUniView on the ABC split and test on the D split (ABC->D), where the D split presents a completely different visual environment from ABC. As shown in Table, RoboUniView improves the success rate of task1 from 0.824 to 0.942, and the average successful sequence length from 2.47 to 3.647, compare to best method. It demonstrate RoboUniView's strong capability in zero-shot generalization.</p>
+
+          &nbsp;</p>
+        </div>
+        <h3 class="title is-5"> Advanced Experiments</h3>
+        <img style="width:900px" src="./static/images/image-20240614.png">
+        <div class="subtitle content has-text-justified">
+          <p>&nbsp;
+          <p>To further validate the effectiveness of our method, we conduct three meaningful experiments using RoboFlamingo as the baseline. (1) Training on the D split and testing on the D split with altered camera parameters. (2) Training on the D split with two different sets of camera parameters, and testing on the D split. (3) Training on the D split with two different sets of camera parameters, each set of which contain different tasks, and testing all tasks on the D split.</p>
+          &nbsp;</p>
+        </div>
+
+        <!-- <div class="subtitle content has-text-justified">
+          <p>&nbsp;
+          <p>The entire RoboUniView framework is illustrated in Figure. During the forward process, multi-perspective images pass through Vision Encoder to extract wrist image features and the unified view representation. These are then combined with language tokens in the Feature Fusion Decoder to extract integrated vision-language features. Finally, these features pass through the policy head to execute robotic manipulation. The training process consists of two phases: during the pre-training phase, Vision Encoder undergoes training on a large dataset of easily accessible RGB-D images to learn robust unified view representation; during the fine-tuning phase, the model learns to predict robotic actions from the unified view representation, using paired images and action data.</p>
+
+          &nbsp;</p>
+        </div> -->
+
+      </div>
+    </div>
+    <hr>
+  </div>
+</section> 
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{li2024RoboUniView
+      title={RoboUniView: Visual-Language Model with Unified View Representation for Robotic Manipulaiton}, 
+      author={Liu, Fanfan and Yan, Feng and Zheng, Liming and Huang, Yiyang and Feng, Chengjian and Ma, Lin},
+      journal={arXiv preprint 2406.18977}
+      year={2024}
+}</code></pre>
+  </div>
+</section>
+
+
+
+</body>
+</html>
